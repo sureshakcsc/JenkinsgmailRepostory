@@ -14,5 +14,6 @@ public class GoogleSearchPage {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.google.com");
     driver.findElement(By.name("q")).sendKeys("Suresh");
+    System.out.println("Suresh");
 }
 }
